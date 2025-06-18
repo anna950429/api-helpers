@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/user/get/all"
+  },
+  "response": {
+    "status": 200,
+    "body": "[\n  {\n    \"name\": \"Test user\",\n    \"cource\": \"QA\",\n    \"email\": \"test@test.test\",\n    \"age\": 23\n  }\n]",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
